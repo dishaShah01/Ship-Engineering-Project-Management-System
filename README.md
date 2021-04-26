@@ -24,8 +24,7 @@
 
 <div align="center">
   
-![img](screenshots/JobhuntUI.png)
-![img](screenshots/mobileappUI.jpg)  
+![img](ss/Screenshot (119).png)
 
 
 </div>
@@ -38,56 +37,56 @@
 
 Clone the project -
 ```
-  $ git clone https://github.com/codingD-T/JobHunt_Application.git
+  $ git clone https://github.com/dishaShah01/Ship-Engineering-Project-Management-System.git
 ```
   
 Install all the requirements -
 ```
-  $ pip install -r requirements.txt
+ Install MySQL workbench 8.0
+ Create a schema named shipengineeringproject
  ``` 
 Run the following commands -
 
  for linux/mac :
 ``` 
-  $ python manage.py migrate
-  $ python manage.py makemigrations
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"create tables.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"insert values.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"views and joined tables.sql"
 ``` 
  for windows :
  ``` 
-  $ python manage.py migrate
-  $ python manage.py makemigrations
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"create tables.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"insert values.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\"views and joined tables.sql"
  ``` 
 Start the project -
- - ### Run the Web Application -
+ - ### Run the scripts -
  for linux/mac :
 ```
-  $ python manage.py runserver
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\callProcedures.sql
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\views.sql
 ```  
  for windows :
 ``` 
-  $ python manage.py runserver
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\callProcedures.sql
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\views.sql
 ```
- - ### Run the Mobile Application -
- Open the directory of mobile application :
- ```
-  $ cd Mobile App/main.py
- ```
-
- To run the mobile application :
- ```
-  $ python main.py
- ```
+ - ### To save results as csv file  -
  
- ---
- ### If you want to clone the web application or the mobile application individually -
- 
- - Link to the web application repository  <a href="https://github.com/codingD-T/JobHunt_Application/">:link:</a>
- - Link to the mobile application repository  <a href="https://github.com/codingD-T/JobHunt_Application/tree/master/Mobile%20App">:link:</a>
+ for linux/mac :
+```
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\callProcedures.sql > filename.csv
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\views.sql > filename.csv
+```  
+ for windows :
+``` 
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\callProcedures.sql > filename.csv
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\views.sql > filename.csv
+```
  
 
  #### Features to be added :
-- Chatting facility with the recruiters and other candidates.
-- Notifications for new jobs posted.
+- Develop a fullstack application
 
 ---
 - #### If you have any improvements create an issue and if you want you can also make a pull request for the same 
@@ -96,7 +95,7 @@ Start the project -
 
 
 ---
-<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/tusharsarkar3">Tushar Sarkar</a>, <a href="https://github.com/dishaShah01">Disha Shah</a>.</b></h1>
+<h3 align="center"><b>Developed by <a href="https://github.com/dishaShah01">Disha Shah</a>.</b></h1>
 
 
 
