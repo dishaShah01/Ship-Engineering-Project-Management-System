@@ -24,7 +24,7 @@
 
 <div align="center">
   
-![img](ss/"Screenshot (119).png")
+![img](ss/ss.png)
 
 
 </div>
