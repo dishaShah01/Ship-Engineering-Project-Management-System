@@ -1,17 +1,3 @@
-# Ship-Engineering-Project-Management-System
-## A database design for making the process of ship engineering project management easier for industries.
-
-### Name: Disha Shah
-
-### Roll No.: 1911053
-
-### Class: A4
-
-### Course: RDBMS
-
-### Faculty: Vaibhav Vasani
-
-### College: KJ Somaiya college of engineering
 
 <h1 align="center">Ship-Engineering-Project-Management-System</h1>
 <div align="center">
@@ -28,11 +14,9 @@
 </div>
 
 <div align="center">
-  
-[![](https://img.shields.io/badge/Made_with-Django-black?style=for-the-badge&logo=django)](https://www.djangoproject.com/ "Django")
-[![](https://img.shields.io/badge/Made_with-Pytorch-red?style=for-the-badge&logo=pytorch)](https://pytorch.org/ "Pytorch")
-[![](https://img.shields.io/badge/Made_with-Postgresql-white?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/ "Postgresql")
-[![](https://img.shields.io/badge/Made_with-Kivy-blue?style=for-the-badge&logo=Python)](https://kivy.org/ "Kivy")
+
+[![](https://img.shields.io/badge/Made_with-Mysql-white?style=for-the-badge&logo=mysql)](https://www.mysql.com/ "Mysql")
+
 
 </div>
 
