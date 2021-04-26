@@ -1,0 +1,11 @@
+SELECT "--------------------------employee_department------------------------------";
+SELECT * FROM shipengineeringproject.employee_department;
+SELECT "---------------------------contract_project-----------------------------";
+SELECT * FROM shipengineeringproject.contract_project;
+SELECT "----------------------------contract_project_team----------------------------";
+SELECT * FROM shipengineeringproject.contract_project_team;
+SELECT "----------------------------user_team----------------------------";
+SELECT * FROM shipengineeringproject.user_team;
+SELECT "------------------------------user_team_task--------------------------";
+SELECT * FROM shipengineeringproject.user_team_task;
+SELECT "--------------------------------------------------------";
