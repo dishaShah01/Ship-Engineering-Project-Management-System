@@ -45,9 +45,9 @@ Clone the project -
   
 Install all the requirements -
 ```
- Install MySQL workbench 8.0
- Create a new connection
- Create a schema named shipengineeringproject in the connection
+ $ mysql -u <username> -p
+ $ CREATE DATABASE shipengineeringproject;
+ 
  ``` 
 Run the following commands in the command prompt-
 
