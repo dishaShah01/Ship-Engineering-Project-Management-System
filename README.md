@@ -25,6 +25,9 @@
 <div align="center">
   
 ![img](ss/ss.png)
+![img](ss/tab1.png)
+![img](ss/tab2.png)
+![img](ss/tab3.png)
 
 
 </div>
