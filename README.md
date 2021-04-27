@@ -43,21 +43,24 @@ Clone the project -
 Install all the requirements -
 ```
  Install MySQL workbench 8.0
- Create a schema named shipengineeringproject
+ Create a new connection
+ Create a schema named shipengineeringproject in the connection
  ``` 
-Run the following commands -
+Run the following commands in the command prompt-
 
  for linux/mac :
 ``` 
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"create tables.sql"
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"insert values.sql"
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"views and joined tables.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\createProcedures.sql
 ``` 
  for windows :
  ``` 
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"create tables.sql"
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"insert values.sql"
   $ mysql -u <username> -p <password> shipengineeringproject < Queries\"views and joined tables.sql"
+  $ mysql -u <username> -p <password> shipengineeringproject < Queries\createProcedures.sql
  ``` 
 Start the project -
  - ### Run the scripts -
